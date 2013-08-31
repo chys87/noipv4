@@ -1,7 +1,7 @@
 noipv4
 ======
 
-Run a program with IPv6 disabled.
+Run a program with IPv4 disabled.
 
 It hacks [`bind`](http://linux.die.net/man/2/bind), [`connect`](http://linux.die.net/man/2/bind)
 and [`sendto`](http://linux.die.net/man/2/sendto) functions to make them reject IPv4 connections.
